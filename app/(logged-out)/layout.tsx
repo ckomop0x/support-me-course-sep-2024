@@ -4,7 +4,7 @@ interface LoggedOutLayoutProps {
 
 export default function LoggedOutLayout({ children }: LoggedOutLayoutProps) {
   return (
-    <div className="flex flex-col min-h-screen items-center justify-center p-24">
+    <div className="flex flex-col min-h-screen items-center justify-center p-24 gap-4">
       {children}
     </div>
   );
