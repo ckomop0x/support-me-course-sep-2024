@@ -39,6 +39,8 @@ export default [
       'plugin:@next/next/recommended',
       'plugin:storybook/recommended',
       'plugin:jsx-a11y/recommended',
+      'next/typescript',
+      'next/core-web-vitals',
     ),
   ),
   {
